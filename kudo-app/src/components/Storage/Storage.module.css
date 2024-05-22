@@ -1,0 +1,96 @@
+
+.container1{
+  height: 820px;
+  padding: 25px  50px;
+  background-color: white;
+  border: 3px solid rgba(7, 67, 122, 0.781);
+  border-radius: 16px;
+}
+
+.storage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+  border: 3px solid rgba(7, 67, 122, 0.781);
+    border-radius: 16px;
+  }
+  .title{
+    padding: 20px;
+    font-family:sans-serif;
+    font-weight: 500;
+  }
+  .subtitle{
+    padding: 20px;
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .storageform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .storageinput{
+    margin-top: 10px;
+    padding: -19px;
+    width: 310px;
+
+  }
+  .storagebutton2 {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 900px;
+  }
+
+  .storagebutton2:hover{
+    background-color:rgba(137, 82, 224, 1);
+    color: white;
+  }
+  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid rgba(7, 67, 122, 0.781);
+  border-radius: 8px;
+  height: 564px;
+  padding: 16px;
+}
+
+.newFile{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.uploades{
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.uploadesContainer{
+  border: 1px solid rgb(22, 224, 89);
+  background-color: rgba(100, 235, 11, 0.1);
+  border-radius: 10px;
+  width: 292px;
+  text-align: center;
+  padding: 6px 3px;
+  font-size: 8px;
+  font-family: sans-serif;
+  height: 31px;
+  margin-top: 25px;
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
