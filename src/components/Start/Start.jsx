@@ -27,7 +27,7 @@ function Start() {
     setIsLoading(false);
 
     if (result == true) {
-      navigate("/admin");
+      navigate("/upload");
     } else {
       setAlert(true);
     }
