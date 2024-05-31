@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <Start />,
   },
   {
-    path: "/admin",
+    path: "/upload",
     element: <Admin />,
   },
 ]);
